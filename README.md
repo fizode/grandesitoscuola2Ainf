@@ -6,5 +6,6 @@ Il sito non è ancora completo ma in continuo aggiornamento, se qualcuno volesse
 <br>
 
 > [!WARNING]
->Il sito è solo a scopo didattico, ogni immagine, font, video, audio, e testo è dei rispettivi proprietari e non sono stati utilizzati a scopo commerciale. 
+>Il sito è solo a scopo didattico, ogni immagine, font, video, audio, e testo è dei rispettivi proprietari e non sono (ne intendono essere) utilizzati a scopo commerciale. 
 
+ Il progetto è stato realizzato da fizode e cicciobro17 - 2026
