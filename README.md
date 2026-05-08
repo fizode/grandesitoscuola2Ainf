@@ -8,4 +8,4 @@ Il sito non è ancora completo ma in continuo aggiornamento, se qualcuno volesse
 > [!WARNING]
 >Il sito è solo a scopo didattico, ogni immagine, font, video, audio, e testo è dei rispettivi proprietari e non sono (ne intendono essere) utilizzati a scopo commerciale. 
 
- Il progetto è stato realizzato da fizode e cicciobro17 - 2026
+ Il progetto è stato realizzato da [Fizode](https://github.com/fizode) e [CiccioBro17](https://github.com/CiccioBro17) - 2026
