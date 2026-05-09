@@ -11,18 +11,18 @@
                 margin: 0 auto; 
                 font-size: 300%;
                 text-align: center;
-                font-family: 'Chinese Rocks', serif ;
+                font-family: 'Chinese Rocks', serif;
                 padding: 10px;
-                border: 3px solid black;
+                border: 3px solid rgb(0, 0, 0);
                 border-radius: 13px;
                 
                 background-color: rgb(68, 77, 87); 
                 color: rgb(255, 255, 255);
                 text-shadow:
-                    -3px -3px 0 black,
-                     3px -3px 0 black,
-                    -3px  3px 0 black,
-                     3px  3px 0 black;
+                    -3px -3px 0 rgb(0, 0, 0),
+                     3px -3px 0 rgb(0, 0, 0),
+                    -3px  3px 0 rgb(0, 0, 0),
+                     3px  3px 0 rgb(0, 0, 0);
             }
             body{
                 background-color: rgb(33, 40, 48);
@@ -52,17 +52,17 @@
                 width: 50%;
                 margin-right: 2%;
                 border-radius: 13px;
-                border: 3px solid black;
+                border: 3px solid rgb(0, 0, 0);
             }
             #gow{
                 width: 50%;
                 margin-left: 2%;
                 border-radius: 13px;
-                border: 3px solid black;
+                border: 3px solid rgb(0, 0, 0);
             }
             #descrizione{
                 text-align: center;
-                border: 3px solid black;
+                border: 3px solid rgb(0, 0, 0);
                 border-radius: 13px;
                 background-color:rgb(11, 197, 24);
                 border-color: rgb(11, 197, 24);
@@ -74,8 +74,8 @@
             }
             hr{
                 width: 85%;
-                border: 1px solid #000000;
-                background-color: #000000;
+                border: 1px solid rgb(0, 0, 0);
+                background-color: rgb(0, 0, 0);
             }
             #tasti{
                 padding: 10px;
@@ -84,20 +84,41 @@
                 margin: 0 auto;
                 height: 1%;
                 width: 90%;
-                border: 2px #FFFFFF;
+                text-align: center;
             }
             .button{
-                font-size: 150%;
-                width: 25%;
-                margin: auto;
-            }
-            .underline{
+               color: rgb(255, 0, 0);  
+                padding: 0.5%;
+                border-radius: 10px;
+                font-weight: bold;
+                border: 2px solid rgb(0, 0, 0);
+                transition: all 0.5s;
                 text-decoration: none;
+                font-size: 220%;
+            }
+            .button:hover{
+                transform: scale(1.10);
             }
             #rdr-button{
-                /* placeholder */
+                background-color: rgb(190, 10, 10);
+                color: rgb(0, 0, 0);
+                margin-left: -10%;
             }
-        </style>
+            #rdr-button:hover{
+                background-color: rgb(110, 11, 11);
+                color: rgb(255, 255, 255);
+            }
+            #gow-button{
+                background-color: rgb(55, 59, 97);
+                color: rgb(255, 255, 255);
+                margin-left: 35%;
+            }
+            #gow-button:hover{
+                background-color: rgb(13, 115, 170);
+                color: rgb(0, 0, 0);
+            }
+            
+            </style>
     </head>
 
     <body >
@@ -117,15 +138,11 @@
         </div>
 
         <div id="tasti">
-            <a class="button" href="rdr2.html">
-                <button id="rdr-button">
-                    Red Dead Redemption II
-                </button>
+            <a class="button" id="rdr-button" href="rdr2.html">
+                Red Dead Redemption II
             </a>
-            <a class="button" href="gow.html">
-                <button id="gow-button">
-                    God of War
-                </button>
+            <a class="button" id="gow-button" href="gow.html">
+                God of War
             </a>
         </div>
 
