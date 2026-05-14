@@ -122,6 +122,23 @@
                 border: 1px solid rgb(0, 0, 0);
                 background-color: rgb(0, 0, 0);
             }
+            .album-cover{
+                width:35% !important;
+            }
+            .album-name {
+                font-weight: normal;
+            }
+            .member{
+                font-weight: bold;
+                text-decoration: none;
+                color: rgb(127, 14, 14);
+                transition: all 0.4s;
+                display: inline-block
+            }
+            .member:hover{
+                transform: scale(1.05);
+                color: rgb(0, 0, 255);
+            }
         </style>
     </head>
 
@@ -137,32 +154,32 @@
 
         
         <p id="sottotitolo">
-            SCRIVERE QUALCOSA SUI PANTERA <br> 
+            Dal 1981, i Pantera hanno rivoluzionato il mondo del metal con la loro aggressività e groove unici, diventando una delle band più influenti del genere.<br> 
         </p>
 
         <div id="immagini1">
-            <img id="pic1" alt="NOME IMMAGINE" src="../media/images/music/pantera/IMMAGINE">
-            <img id="pic2" alt="NOME IMMAGINE" src="../media/images/music/pantera/IMMAGINE">
+            <img class="album-cover" id="pic1" alt="Cowboys From Hell" src="../media/images/music/pantera/cfh.jpg">
+            <img class="album-cover" id="pic2" alt="Vulgar Display Of Power" src="../media/images/music/pantera/vdop.jpg">
         </div>
 
         <div id="immagini2">
-            <img id="pic3" alt="NOME IMMAGINE" src="../media/images/music/pantera/IMMAGINE">
-            <img id="pic4" alt="NOME IMMAGINE" src="../media/images/music/pantera/IMMAGINE">
+            <img class="album-cover" id="pic3" class="" alt="Far Beyond Driven" src="../media/images/music/pantera/fbd.jpg">
+            <img class="album-cover" id="pic4" alt="The Great Southern Trendkill" src="../media/images/music/pantera/tgst.jpg">
         </div>
         <div id="descrizione">
             <p>
-                <b>DESCRIZIONE<br>
+                <b>Come mai sono diventati così conosciuti nel mondo del metal?</b><br>
+                La band Pantera ha riscontrato un enorme successo con gli album degli anni '90, perché hanno una potenza e un ritmo travolgente, ma i testi? Parlano di rabbia, ribellione, problemi sociali e la frustrazione della vita quotidiana.<br>
                 <hr>
-                <b>ALBUM (?)</b>
+                <b>ALBUM</b>
                 <ul>
-                    <li>ALBUM1</li>
-                    <li>ALBUM2</li>
-                    <li>ALBUM3</li>
-                    <li>ALBUM4</li>
+                    <li class="album-name">Cowboys From Hell (1990)</li>
+                    <li class="album-name">Vulgar Display Of Power (1992)</li>
+                    <li class="album-name">Far Beyond Driven (1994)</li>
+                    <li class="album-name">The Great Southern Trendkill (1996)</li>
                 </ul>
                 <hr>
-                <b>DESCRIZIONE</b> <br>
-                DESCRIZIONE
+                <a href="https://it.wikipedia.org/wiki/Phil_Anselmo" target="_blank" class="member"><b>Phil Anselmo</b></a> è noto per i suoi testi intensi e la sua voce potente, mentre <a href="https://it.wikipedia.org/wiki/Dimebag_Darrell" target="_blank" class="member"><b>Dimebag Darrell</b></a> era un chitarrista eccezionale che ha lasciato un segno indelebile nella storia del groove metal
             </p>
         </div>
     </body>
