@@ -133,9 +133,71 @@
                 background-color: rgb(31, 125, 31);
                 
             }
+            
             a{
                 text-decoration: none;
                 color: brown;
+            }
+            .tasti{
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                gap: 4%;
+                margin: 0 auto;
+                width: 90%;
+                text-align: center;
+            }
+            .button{
+                color: rgb(255, 0, 0);
+                padding: 0.5%;
+                border-radius: 10px;
+                font-weight: bold;
+                border: 2px solid rgb(0, 0, 0);
+                transition: all 0.5s;
+                text-decoration: none;
+                font-size: 180%;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 1.5%;
+            }
+            .button:hover{
+                transform: scale(1.10);
+            }
+            #pic1-button{
+                background-color: rgb(210, 165, 136);
+                color: rgb(27, 32, 4);
+                margin-right: 12%;
+            }
+            #pic1-button:hover{
+                background-color: rgb(21, 10, 8);
+                color: rgb(210, 165, 136);
+            }
+            #pic2-button{
+                background-color: rgb(78, 59, 54);
+                color: rgb(61, 231, 84);
+            }
+            #pic2-button:hover{
+                background-color: rgb(255, 255, 255);
+                color: rgb(78, 59, 54);
+            }
+            #pic3-button{
+                background-color: rgb(42, 78, 115);
+                color: rgb(75, 167, 129);
+                margin-right: 12%;
+            }
+            #pic3-button:hover{
+                background-color: rgb(15, 32, 25);
+                color: rgb(42, 78, 115);
+            }
+            #pic4-button{
+                background-color: rgb(210, 126, 50);
+                color: rgb(94, 16, 4);
+            }
+            #pic4-button:hover{
+                background-color: rgb(116, 46, 35);
+                color: rgb(210, 126, 50);
             }
         </style>
     </head>
@@ -159,10 +221,26 @@
             <img id="pic1" alt="NOME IMMAGINE" src="../media/images/music/goodkid/cwhs.jpg">
             <img id="pic2" alt="NOME IMMAGINE" src="../media/images/music/goodkid/fast.jpg">
         </div>
+        <div class="tasti">
+            <a class="button" id="pic2-button" href="goodkid/cwhs.html">
+                Can We Hangout Sometime?
+            </a>
+            <a class="button" id="pic1-button" href="goodkid/gk4.html">
+                GoodKid4
+            </a>
+        </div>
 
         <div id="immagini2">
             <img id="pic3" alt="NOME IMMAGINE" src="../media/images/music/goodkid/ntte.jpg">
             <img id="pic4" alt="NOME IMMAGINE" src="../media/images/music/goodkid/goodkid2.jpg">
+        </div>
+        <div class="tasti">
+            <a class="button" id="pic3-button" href="goodkid/gk3.html">
+                GoodKid3
+            </a>
+            <a class="button" id="pic4-button" href="goodkid/gk2.html">
+                GoodKid2
+            </a>
         </div>
         <div id="descrizione">
             <p>
