@@ -60,12 +60,11 @@
                 background-color: rgb(11, 197, 24);
                 box-shadow: 0px 5px 35px rgba(255, 255, 3, 0.489)
             }
-            #immagini1{
+            .immagini{
                 padding: 10px;
                 display: flex;
                 justify-content: center;
                 margin: 0 auto;
-                height: 1%;
                 width: 90%;   
             }
             #pic1{
@@ -79,14 +78,6 @@
                 margin-left: 2%;
                 border-radius: 13px;
                 border: 3px solid rgb(0, 0, 0);
-            }
-            #immagini2{
-                padding: 10px;
-                display: flex;
-                justify-content: center;
-                margin: 0 auto;
-                height: 1%;
-                width: 90%;   
             }
             #pic3{
                 width: 50%;
@@ -139,65 +130,66 @@
                 transform: scale(1.05);
                 color: rgb(0, 0, 255);
             }
-            #tasti{
-            padding: 10px;
-            display: flex;
-            justify-content: space-evenly;
-            margin: 0 auto;
-            height: 1%;
-            width: 90%;
-            text-align: center;
+            .tasti{
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                gap: 4%;
+                margin: 0 auto;
+                width: 90%;
+                text-align: center;
             }
             .button{
-                color: rgb(255, 0, 0);  
+                color: rgb(255, 0, 0);
                 padding: 0.5%;
                 border-radius: 10px;
                 font-weight: bold;
                 border: 2px solid rgb(0, 0, 0);
                 transition: all 0.5s;
                 text-decoration: none;
-                font-size: 220%;
+                font-size: 180%;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 1.5%;
             }
             .button:hover{
                 transform: scale(1.10);
             }
             #pic1-button{
-                background-color: rgb(190, 10, 10);
-                color: rgb(0, 0, 0);
-                margin-right: 27%;
-                margin-left: 25%;
+                background-color: rgb(210, 165, 136);
+                color: rgb(21, 10, 8);
+                margin-right: 12%;
             }
             #pic1-button:hover{
-                background-color: rgb(110, 11, 11);
-                color: rgb(255, 255, 255);
+                background-color: rgb(21, 10, 8);
+                color: rgb(210, 165, 136);
             }
             #pic2-button{
-                background-color: rgb(55, 59, 97);
+                background-color: rgb(78, 59, 54);
                 color: rgb(255, 255, 255);
-                margin-right: -10%;
             }
             #pic2-button:hover{
-                background-color: rgb(13, 115, 170);
-                color: rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
+                color: rgb(78, 59, 54);
             }
             #pic3-button{
-                background-color: rgb(55, 59, 97);
-                color: rgb(255, 255, 255);
-                margin-right: 27%;
+                background-color: rgb(42, 78, 115);
+                color: rgb(15, 32, 25);
+                margin-right: 12%;
             }
             #pic3-button:hover{
-                background-color: rgb(13, 115, 170);
-                color: rgb(0, 0, 0);
+                background-color: rgb(15, 32, 25);
+                color: rgb(42, 78, 115);
             }
             #pic4-button{
-                background-color: rgb(55, 59, 97);
-                color: rgb(255, 255, 255);
-                margin-right: 0%;
+                background-color: rgb(210, 126, 50);
+                color: rgb(116, 46, 35);
             }
             #pic4-button:hover{
-                background-color: rgb(13, 115, 170);
-                color: rgb(0, 0, 0);
+                background-color: rgb(116, 46, 35);
+                color: rgb(210, 126, 50);
             }
         </style>
     </head>
@@ -217,29 +209,29 @@
             Dal 1981, i Pantera hanno rivoluzionato il mondo del metal con la loro aggressività e groove unici, diventando una delle band più influenti del genere.<br> 
         </p>
 
-        <div id="immagini1">
+        <div class="immagini">
             <img class="album-cover" id="pic1" alt="Cowboys From Hell" src="../media/images/music/pantera/cfh.jpg">
             <img class="album-cover" id="pic2" alt="Vulgar Display Of Power" src="../media/images/music/pantera/vdop.jpg">
         </div>
         <div class="tasti">
             <a class="button" id="pic1-button" href="pantera/cfh.html">
-                Giochi
+                Cowboys From Hell
             </a>
             <a class="button" id="pic2-button" href="pantera/vdop.html">
-                Musica
+                Vulgar Display Of Power
             </a>
         </div>
 
-        <div id="immagini2">
+        <div class="immagini">
             <img class="album-cover" id="pic3" class="" alt="Far Beyond Driven" src="../media/images/music/pantera/fbd.jpg">
             <img class="album-cover" id="pic4" alt="The Great Southern Trendkill" src="../media/images/music/pantera/tgst.jpg">
         </div>
         <div class="tasti">
             <a class="button" id="pic3-button" href="pantera/fbd.html">
-                Giochi
+                Far Beyond Driven
             </a>
             <a class="button" id="pic4-button" href="pantera/tgst.html">
-                Musica
+                The Great Southern Trendkill
             </a>
         </div>
 
